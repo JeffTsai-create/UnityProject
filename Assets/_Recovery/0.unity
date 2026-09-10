@@ -188,7 +188,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4334783836991956000, guid: a44c92a22973d45409195a3b87119d28, type: 3}
+  m_Sprite: {fileID: 5839568884850931872, guid: c8f66aef623e74c6db75036af2d2213b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -277,6 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
   FacingDirection: 1
+  animator: {fileID: 1722047587}
 --- !u!1 &2101770244
 GameObject:
   m_ObjectHideFlags: 0
