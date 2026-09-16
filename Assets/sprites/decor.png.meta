@@ -168,9 +168,9 @@ TextureImporter:
       name: decor_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 120
-        width: 16
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -190,10 +190,10 @@ TextureImporter:
       name: decor_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 123
-        width: 22
-        height: 17
+        x: 24
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: decor_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 125
-        width: 16
-        height: 13
+        x: 48
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: decor_3
       rect:
         serializedVersion: 2
-        x: 76
+        x: 72
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,9 +256,9 @@ TextureImporter:
       name: decor_4
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 120
-        width: 22
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -281,7 +281,7 @@ TextureImporter:
         x: 120
         y: 120
         width: 24
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: decor_6
       rect:
         serializedVersion: 2
-        x: 148
-        y: 96
-        width: 16
-        height: 48
+        x: 144
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: decor_7
       rect:
         serializedVersion: 2
-        x: 6
-        y: 101
-        width: 12
-        height: 14
+        x: 0
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: decor_8
       rect:
         serializedVersion: 2
-        x: 26
+        x: 24
         y: 96
-        width: 20
-        height: 23
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,10 +366,10 @@ TextureImporter:
       name: decor_9
       rect:
         serializedVersion: 2
-        x: 51
+        x: 48
         y: 96
-        width: 18
-        height: 19
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +388,10 @@ TextureImporter:
       name: decor_10
       rect:
         serializedVersion: 2
-        x: 75
+        x: 72
         y: 96
-        width: 16
-        height: 18
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: decor_11
       rect:
         serializedVersion: 2
-        x: 102
-        y: 101
-        width: 12
-        height: 13
+        x: 96
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,10 +432,10 @@ TextureImporter:
       name: decor_12
       rect:
         serializedVersion: 2
-        x: 125
+        x: 120
         y: 96
-        width: 15
-        height: 9
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: decor_13
       rect:
         serializedVersion: 2
-        x: 25
-        y: 74
-        width: 22
-        height: 18
+        x: 144
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,10 +476,10 @@ TextureImporter:
       name: decor_14
       rect:
         serializedVersion: 2
-        x: 75
+        x: 24
         y: 72
-        width: 16
-        height: 18
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: decor_15
       rect:
         serializedVersion: 2
-        x: 102
-        y: 78
-        width: 12
-        height: 11
+        x: 72
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: decor_16
       rect:
         serializedVersion: 2
-        x: 149
-        y: 75
-        width: 14
-        height: 17
+        x: 96
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,10 +542,10 @@ TextureImporter:
       name: decor_17
       rect:
         serializedVersion: 2
-        x: 1
-        y: 28
-        width: 23
-        height: 33
+        x: 144
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,10 +564,10 @@ TextureImporter:
       name: decor_18
       rect:
         serializedVersion: 2
-        x: 33
-        y: 51
-        width: 7
-        height: 18
+        x: 0
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,10 +586,10 @@ TextureImporter:
       name: decor_19
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1
-        width: 57
-        height: 70
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,10 +608,10 @@ TextureImporter:
       name: decor_20
       rect:
         serializedVersion: 2
-        x: 149
-        y: 51
-        width: 14
-        height: 17
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: decor_21
       rect:
         serializedVersion: 2
-        x: 149
-        y: 27
-        width: 14
-        height: 17
+        x: 96
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,6 +644,226 @@ TextureImporter:
       bones: []
       spriteID: bc72223a1e12c3080800000000000000
       internalID: -9206446285263853621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7745ae250982f3144a79e7385a187e56
+      internalID: 560296218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b83e559e01284dba0693991a03073
+      internalID: 1173546817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88a2394e886f684b9c947da48e801a3
+      internalID: -1113637734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4194044d9449d144a1fdcb51b0a7e03
+      internalID: -1530558351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411da8915de94ac47a37241bfa053026
+      internalID: 1958353373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51484e1bf3c54c348a311e2ce5360d53
+      internalID: -56421832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d6b7e262767c44b28561b7b8a6060
+      internalID: 258657449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5658c3c75ecd4abd2bdeb00d4db7a
+      internalID: -881733904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b8bbf30fb571f468a4675697db539e
+      internalID: -1961214398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f32a72e128bc894baa1383b86d7abe0
+      internalID: -848497462
       vertices: []
       indices: 
       edges: []
@@ -662,7 +882,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       decor_0: -6252805913084083930
       decor_1: 8843726661577706292
@@ -679,7 +899,17 @@ TextureImporter:
       decor_2: -3579472602480421216
       decor_20: 7809703266416539251
       decor_21: -9206446285263853621
+      decor_22: 560296218
+      decor_23: 1173546817
+      decor_24: -1113637734
+      decor_25: -1530558351
+      decor_26: 1958353373
+      decor_27: -56421832
+      decor_28: 258657449
+      decor_29: -881733904
       decor_3: 2004466711981498611
+      decor_30: -1961214398
+      decor_31: -848497462
       decor_4: 968779181053603064
       decor_5: -2484269097896370145
       decor_6: -2603311821418127281
