@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     public int FacingDirection=1;
     public Animator animator;
+    public Player_Combat playerCombat;
+    
     void Start()
     {
         // 程式執行時自動抓取物件上的 Rigidbody 2D 元件
@@ -22,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("movement.x", movement.x);
         animator.SetFloat("movement.y", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerCombat.Attack();
+        }
     }
 
     void FixedUpdate()
