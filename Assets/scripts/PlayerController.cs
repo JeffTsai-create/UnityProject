@@ -8,23 +8,47 @@ public class PlayerMovement : MonoBehaviour
     public int FacingDirection=1;
     public Animator animator;
     public Player_Combat playerCombat;
-    
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         // 程式執行時自動抓取物件上的 Rigidbody 2D 元件
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // 讀取鍵盤輸入
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
         animator.SetFloat("movement.x", movement.x);
         animator.SetFloat("movement.y", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
-        
+
+        // 記住最後面向
+        if (movement.x > 0)
+        {
+            FacingDirection = 1;
+        }
+        else if (movement.x < 0)
+        {
+            FacingDirection = -1;
+        }
+
+        bool isRunning = movement.sqrMagnitude > 0.01f;
+
+        if (isRunning)
+        {
+            // Run 素材原本朝左
+            spriteRenderer.flipX = FacingDirection == 1;
+        }
+        else
+        {
+            // Idle 素材原本朝右
+            spriteRenderer.flipX = FacingDirection == -1;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerCombat.Attack();
@@ -33,17 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // 使用抓取到的 rb 進行物理移動
-        // 備註：若為舊版 Unity，請將 linearVelocity 改為 velocity
-        if(movement.x >0&& transform.localScale.x>0 || 
-        movement.x<0 && transform.localScale.x<0   )
-        {
-            Flip();
-        }
         rb.linearVelocity = movement.normalized * speed;
     }
-    void Flip(){
-        FacingDirection *=-1;
-        transform.localScale= new Vector3(transform.localScale.x*-1,transform.localScale.y,transform.localScale.z);
-    }
+
 }
