@@ -11,6 +11,10 @@ public class UIFollowTarget : MonoBehaviour
     // 使用 LateUpdate 確保在角色移動、動畫更新完成後，才更新血條位置，避免畫面抖動
     void LateUpdate()
     {
+        if (target == null)
+        {
+            Destroy(gameObject);
+        }
         if (target != null)
         {
             // 將自身的世界座標直接對齊到：目標當前座標 + 偏移量

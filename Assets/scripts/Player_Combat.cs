@@ -30,6 +30,10 @@ public class Player_Combat : MonoBehaviour
         
         foreach (Collider2D enemy in enemies)
         {
+            if (enemy.isTrigger)
+        {
+            continue;
+        }
             Enemy_Health enemyHealth = enemy.GetComponent<Enemy_Health>();
             if (enemyHealth != null)
             {
@@ -41,5 +45,10 @@ public class Player_Combat : MonoBehaviour
     public void finishAttacking()
     {
         animator.SetBool("isAttacking",false);
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

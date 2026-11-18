@@ -31,34 +31,40 @@ public class PlayerController : MonoBehaviour
 
         // 記住最後面向
         if (movement.x > 0)
-        {
             FacingDirection = 1;
-        }
         else if (movement.x < 0)
-        {
             FacingDirection = -1;
-        }
 
         bool isRunning = movement.sqrMagnitude > 0.01f;
 
-        if (isRunning)
-        {
-            // Run 素材原本朝左
-            spriteRenderer.flipX = FacingDirection == 1;
-        }
-        else
-        {
-            // Idle 素材原本朝右
-            spriteRenderer.flipX = FacingDirection == -1;
-        }
+        // 判斷目前是否正在播放揮劍動畫（請把 "Attack" 改成你 Animator 裡揮劍狀態的名稱）
+        bool isAttacking = animator.GetCurrentAnimatorStateInfo(0).IsName("sowrdAnimation");
+
+        UpdateSpriteFlip(isRunning, isAttacking);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerCombat.Attack();
         }
-        
+}
 
+// 依照「目前播放的動畫」決定翻轉方式
+// Idle、Attack 素材原本朝右；Run 素材原本朝左
+void UpdateSpriteFlip(bool isRunning, bool isAttacking)
+{
+    if (isRunning && !isAttacking)
+    {
+    // Run：原本朝左，面向右(1)時才翻轉
+        spriteRenderer.flipX = FacingDirection == 1;
     }
+    else
+    {
+        // Idle / Attack：原本朝右，面向左(-1)時才翻轉
+        spriteRenderer.flipX = FacingDirection == -1;
+    }
+}   
+
+
 
     void FixedUpdate()
     {

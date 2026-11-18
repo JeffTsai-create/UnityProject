@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "自主學習專案.slnx"
+    "dotnet.defaultSolution": "UnityProject.slnx"
 }
